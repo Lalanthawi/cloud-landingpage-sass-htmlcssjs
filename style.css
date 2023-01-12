@@ -2,5 +2,107 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roberto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(12, 12, 12, 0.808);
+  padding: 3rem;
+}
+
+header nav a {
+  padding: 1rem;
+  color: rgb(199, 209, 223);
+}
+header nav a:hover {
+  color: white;
+}
+
+.section1 {
+  background-color: rgba(12, 12, 12, 0.808);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.getstarted {
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 3rem;
+  background-color: rgb(167, 228, 207);
+  font-weight: 700;
+}
+.h2main {
+  color: white;
+  padding: 1rem;
+}
+
+.belowhero,
+.belowhero1 {
+  display: flex;
+  background-color: rgba(12, 12, 12, 0.808);
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 0rem;
+  padding: 4rem;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.fleximage {
+  align-self: center;
+}
+
+.paratext {
+  color: white;
+  line-height: 2rem;
+}
+
+.stayprod {
+  display: flex;
+  padding: 4rem;
+  background-color: rgba(12, 12, 12, 0.808);
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.headingprod {
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.stayprod2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: white;
+}
+
+.fyloworks {
+  color: lightgreen;
+}
+
+.testomony {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+testomony {
 }
